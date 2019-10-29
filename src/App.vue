@@ -2,7 +2,12 @@
   <div id="app">
     <nav id="nav">
       <img src="./assets/logo.jpeg" alt="hello world">
-      <router-link to="/">Home</router-link> 
+      <div class="nav-links">
+        <router-link to="/">Home</router-link> 
+        <router-link to="/">Code</router-link> 
+        <router-link to="/">Music</router-link> 
+        <router-link to="/">Contact</router-link> 
+      </div>
     </nav>
     <router-view/>
     <footer id="footer">
@@ -33,19 +38,30 @@ body {
   padding: 10px;
   height: 60px;
   border-bottom: 1px solid $dull;
+  .nav-links {
+    display: inline;
+    // margin-top: 35px;
+  }
   a {
-    font-weight: bold;
+    // font-weight: bold;
+    transform: scale(150);
+    padding: 0 5%;
     color: $title;
-    padding: 0 $normal;
-    position: absolute;
-    right: 0;
+    text-decoration: none;
+    justify-self: center;
     &.router-link-exact-active {
       color: $important;
+    }
+    @media only screen and (max-width: 600px) {
+      padding: 0 2%;
     }
   }
   img {
     width: 5rem;
     border-radius: 100%;
+    @media only screen and (max-width: 600px) {
+      // width: 3rem;
+    }
   }
 }
 #footer {
