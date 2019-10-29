@@ -30,7 +30,9 @@ body {
   height: 100%;
 }
 #nav {
-  padding: 30px;
+  padding: 10px;
+  height: 60px;
+  border-bottom: 1px solid $dull;
   a {
     font-weight: bold;
     color: $title;
@@ -48,7 +50,7 @@ body {
 }
 #footer {
   width:100%;
-  height:60px;   /* Height of the footer */
+  height: 40px;  
   background-color: $dull;
 }
 </style>

@@ -1,6 +1,10 @@
 <template>
-  <div class="hello">
-    
+  <div class="landing-container">
+    <header>
+      <h1>Jeremiah Tabb</h1>
+      <h2>Full Stack Software Engineer</h2>
+    </header>
+   
   </div>
 </template>
 
@@ -14,19 +18,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style lang="scss">
+@import '../assets/variables.scss';
+  .landing-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: $normal;
+  }
 </style>
