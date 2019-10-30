@@ -11,7 +11,10 @@
     </nav>
     <router-view/>
     <footer id="footer">
-      <h3>Footer</h3>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-github"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-medium-m"></i>
     </footer>
   </div>
 </template>
@@ -69,5 +72,12 @@ body {
   width:100%;
   height: 40px;  
   background-color: $dull;
+  display: flex;
+  justify-content: space-evenly;
+  i {
+    color: $background;
+    font-size: 170%;
+    padding-top: 4px;
+  }
 }
 </style>
