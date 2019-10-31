@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="landing-container">
+        <img src="../assets/welcome.jpeg" alt="This is a picture of me!">
       <header>
         <h1>Jeremiah Tabb</h1>
         <h3>Full Stack Software Engineer</h3>
@@ -29,8 +30,15 @@ export default {
 @import '../assets/variables.scss';
   .landing-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: $normal;
+    img {
+      width: 25rem;
+      @media only screen and (max-width: 600px) {
+        width: 100%
+      }
+    }
   }
   .main-projects{
     background-color: $secondary;

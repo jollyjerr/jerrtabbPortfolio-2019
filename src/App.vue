@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav id="nav">
-      <img src="./assets/logo.jpeg" alt="hello world">
+      <!-- <img src="./assets/logo.jpeg" alt="hello world"> --> 
       <div class="nav-links">
         <router-link to="/">Home</router-link> 
         <router-link to="/projects">Code</router-link> 
@@ -50,8 +50,8 @@ body {
   height: 60px;
   border-bottom: 1px solid $dull;
   .nav-links {
-    display: inline;
-    // margin-top: 35px;
+    // display: inline;
+    margin-top: 52px;
   }
   a {
     // font-weight: bold;
