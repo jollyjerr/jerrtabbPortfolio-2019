@@ -9,7 +9,7 @@
       </header>
     </div>
       <div class="main-projects" >
-
+        <h2></h2>
       </div>
       <div class="main-music" >
 
@@ -44,10 +44,12 @@ export default {
     background-color: $secondary;
     width: 100%;
     height: 60px;
+    padding: $normal
   }
   .main-music {
     background-color: $important;
     width: 100%;
     height: 60px;
+    padding: $normal;
   }
 </style>

@@ -17,6 +17,11 @@ export default new Router({
       path: '/projects',
       name: 'projects',
       component: () => import(/* webpackChunkName: "projects" */ './views/Projects.vue')
+    },
+    {
+      path: '/music',
+      name: 'music',
+      component: () => import(/* webpackChunkName: "music" */ './views/Music.vue')
     }
   ]
 })

@@ -50,11 +50,9 @@ body {
   height: 60px;
   border-bottom: 1px solid $dull;
   .nav-links {
-    // display: inline;
     margin-top: 52px;
   }
   a {
-    // font-weight: bold;
     transform: scale(150);
     padding: 0 5%;
     color: $dull;
