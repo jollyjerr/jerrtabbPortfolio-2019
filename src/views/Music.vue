@@ -2,6 +2,7 @@
     <main class="music" >
         <header>
             <h1>Music</h1>
+            <p>I write contemporary classical music:</p>
         </header>
         <MusicPlayers />
     </main>
