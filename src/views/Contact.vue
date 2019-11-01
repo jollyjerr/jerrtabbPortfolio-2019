@@ -2,7 +2,7 @@
   <main class="contact">
     <header>
       <h1>Contact</h1>
-      <p>yadayadayadayada:</p>
+      <p></p>
     </header>
   </main>
 </template>
