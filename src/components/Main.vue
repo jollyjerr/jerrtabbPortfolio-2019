@@ -92,6 +92,10 @@ export default {
         margin: auto;
         transform: scale(1.3);
       }
+      a {
+        color: $text;
+        text-decoration: none;
+      }
     }
     .location {
       background-color: $secondary;
