@@ -1,9 +1,9 @@
 <template>
     <div class="project-listing" >
-        <img :src="project.image" :alt="project.name">
         <a :href="project.link" target="_blank" rel="noopener noreferrer">
-            <h3>{{project.name}}</h3>
+            <h2>{{project.name}}</h2>
         </a>
+        <img :src="project.image" :alt="project.name">
         <p>{{project.description}}</p>
     </div>
 </template>
@@ -18,4 +18,18 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/variables.scss';
+.project-listing {
+    width: 100%;
+    padding: 2%;
+    // border: 1px solid $important;
+    h2 {
+        color: $text;
+    }
+    a {
+        text-decoration: none;
+    }
+    img {
+        width: 100%;
+    }
+}
 </style>

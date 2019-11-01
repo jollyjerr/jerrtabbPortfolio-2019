@@ -1,10 +1,8 @@
 <template>
     <div class="portfolio" >
-        <ul class="projects" >
-            <div v-for="project in projects" :key="project.id" >
-                <ProjectListing :project="project" />
-            </div>
-        </ul>
+        <div v-for="project in projects" :key="project.id" class="portfolio-project-listing">
+            <ProjectListing :project="project" />
+        </div>
     </div>
 </template>
 
@@ -29,5 +27,9 @@ export default {
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
+        .portfolio-project-listing {
+            width: 25rem;
+            padding: 1%;
+        }
     }
 </style>
