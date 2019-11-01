@@ -1,6 +1,6 @@
 <template>
     <div class="portfolio" >
-        <h1>Hey I am the projects component</h1>
+        
     </div>
 </template>
 
@@ -14,6 +14,9 @@ export default {
 <style lang="scss" scoped>
     @import '../assets/variables.scss';
     .portfolio {
-        padding: $normal
+        padding: $normal;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
 </style>
