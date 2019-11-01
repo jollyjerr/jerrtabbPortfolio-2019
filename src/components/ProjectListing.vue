@@ -1,6 +1,10 @@
 <template>
     <div class="project-listing" >
-        <h3>{{project.name}}</h3>
+        <img :src="project.image" :alt="project.name">
+        <a :href="project.link" target="_blank" rel="noopener noreferrer">
+            <h3>{{project.name}}</h3>
+        </a>
+        <p>{{project.description}}</p>
     </div>
 </template>
 
