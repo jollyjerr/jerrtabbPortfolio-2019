@@ -15,8 +15,8 @@ export default new Vuex.Store({
       id: 2,
       name: 'Stellar Navigation',
       description: 'An interactive portrayal of stellar systems that calculates travel time between celestial bodies.',
-        link: 'https://github.com/jollyjerr/StellarNavigation-Frontend',
-        image: 'https://github.com/jollyjerr/StellarNavigation-Backend/raw/master/GitHubFiles/intro.gif'
+      link: 'https://github.com/jollyjerr/StellarNavigation-Frontend',
+      image: 'https://github.com/jollyjerr/StellarNavigation-Backend/raw/master/GitHubFiles/intro.gif'
     }, {
       id: 3,
       name: 'Harmonics',
@@ -28,7 +28,7 @@ export default new Vuex.Store({
       name: 'Trip-Up',
       description: 'The perfect website for keeping all of your adventures organized!',
       link: 'https://github.com/jollyjerr/Trip-Up',
-        image: 'https://github.com/jollyjerr/Trip-Up/raw/master/github/comments.gif'
+      image: 'https://github.com/jollyjerr/Trip-Up/raw/master/github/comments.gif'
     }]
   },
   mutations: {
