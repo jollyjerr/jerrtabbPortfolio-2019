@@ -131,6 +131,10 @@ export default {
       justify-content: center;
       background-color: $title;
       padding: 1rem;
+      @media only screen and (max-width: 400px) {
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
     }
     i {
       font-size: 150%;

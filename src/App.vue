@@ -50,6 +50,7 @@ body {
   main {
     padding-top: 60px;
   }
+  min-height: 100vh;
 }
 #nav {
   position: fixed;
