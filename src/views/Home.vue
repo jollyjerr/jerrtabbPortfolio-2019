@@ -15,8 +15,3 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.home {
-  height: calc(100vh - 100px);
-}
-</style>
